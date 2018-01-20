@@ -19,6 +19,7 @@ class CreateJobApplicationsTable extends Migration
             $table->string('id_number');
             $table->string('phone_number');
             $table->string('job_type');
+            $table->string('location');
             $table->integer('status');
             $table->timestamps();
         });

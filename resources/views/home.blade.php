@@ -15,7 +15,7 @@
                                 <th>ID Number</th>
                                 <th>Phone Number</th>
                                 <th>Job Type</th>
-                                {{--<th>Status</th>--}}
+                                <th>Location</th>
                                 <th>Action</th>
                             </tr>
                             </thead>
@@ -28,6 +28,7 @@
                                     <td>{{ $jobapplication->id_number }}</td>
                                     <td>{{ $jobapplication->phone_number }}</td>
                                     <td>{{ $jobapplication->job_type }}</td>
+                                    <td>{{ $jobapplication->location }}</td>
                                     {{--<td>--}}
                                         {{--@if($jobapplication->status == "1")--}}
                                             {{--<span style="color: green;">Vetted</span>--}}
